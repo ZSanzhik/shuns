@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Page</title>
+  <!-- External CSS -->
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Internal CSS */
+    body {
+      background-image: url('https://catherineasquithgallery.com/uploads/posts/2021-02/1613466138_2-p-fon-dlya-prezentatsii-sovremennii-stil-2.jpg');
+      background-size: cover;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+    }
+
+    .content {
+      color: white;
+      padding: 20px;
+    }
+
+    /* Inline CSS */
+    .button {
+      width: 200px;
+      height: 50px;
+      color: rgb(0, 0, 0);
+      font-size: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Registration</h1>
+  <br>
+  <form action="2.html" method="post">
+    <label for="fullName">Name:</label>
+    <input type="text" id="fullName" name="fullName" required><br>
+    <label for="gender">Gender:</label>
+    <input type="radio" id="male" name="gender" value="male" required>
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female" required>
+    <label for="female">Female</label><br>
+    <label for="acceptTerms">Accept the terms:</label>
+    <input type="checkbox" id="acceptTerms" name="acceptTerms" required><br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required><br>
+    <label for="birthdate">Birth Date:</label>
+    <input type="date" id="birthdate" name="birthdate" required><br>
+    <label for="phone">Phone number:</label>
+    <input type="tel" id="phone" name="phone" required><br>
+    <center><button class="button" type="submit">Registrate</button></center>
+  </form>
+</body>
+</html>

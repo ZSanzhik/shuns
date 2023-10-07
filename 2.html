@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login page</title>
+  <link rel="stylesheet" href="styles.css"> <!-- External CSS -->
+  <style>
+    /* Internal CSS */
+    body {
+      background-image: url('https://catherineasquithgallery.com/uploads/posts/2021-02/1613466138_2-p-fon-dlya-prezentatsii-sovremennii-stil-2.jpg');
+      background-size: cover;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+    }
+
+    .content {
+      color: white;
+      padding: 20px;
+    }
+
+    /* Inline CSS */
+    .button {
+      width: 200px;
+      height: 50px;
+      color: rgb(0, 0, 0);
+      font-size: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Login</h1>
+  <form action="3.html" method="post">
+    <label for="loginEmail">Email:</label>
+    <input type="email" id="loginEmail" name="loginEmail" required><br>
+    <label for="loginPassword">Password:</label>
+    <input type="password" id="loginPassword" name="loginPassword" required><br>
+    <center><h1><button class="button" type="submit">Login</button></center>
+  </form>
+</body>
+</html>
